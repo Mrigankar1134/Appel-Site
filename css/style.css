@@ -312,9 +312,6 @@ ul{
 }
 
 @media (max-width: 400px){
-    .moto-col{
-        text-align: center;
-    }
     .apple-logo{
         width: 100px;
     }
