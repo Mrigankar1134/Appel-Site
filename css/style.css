@@ -1,0 +1,330 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Body */
+body{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: rgb(230, 227, 227);
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Logo Section */
+
+ #logo{
+    background-color: black;
+    color: #fff;
+    padding: 5px 0px;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+.apple-logo{
+    width: 150px;
+}
+
+/* Navbar Section */
+.navbar{
+    padding: 0.1rem 2rem 1rem;
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: black;
+}
+.navbar-brand, .nav-item{
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: normal;
+}
+
+.navbar-toggler{
+    background-color: gray;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background-color: white;
+}
+
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span + span{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.5rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: 4px solid black;
+}
+
+
+.navbar-nav .btn{
+    background-color: gray;
+    color: black;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    margin-top: 1px;
+}
+.navbar-nav .btn:hover{
+    background-color: rgb(230, 227, 227);
+    border: solid 1px black;
+}
+
+/* Title Section */
+#title{
+    padding: 5% 5%;
+}
+.product-img{
+    width: 600px;
+}
+
+.moto1, .moto2{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.moto1{
+    padding-top: 15%;
+}
+
+/* Buy Section */
+#buy{
+    padding: 7rem 0rem 4rem 0rem;
+}
+
+.img-product1{
+    width: 75%;
+    transition: transform .2s
+}
+.img-product1:hover{
+    transform: scale(1.1);
+}
+.img-product2{
+    width: 65%;
+    transition: transform .2s
+}
+.img-product2:hover{
+    transform: scale(1.1);
+}
+
+.product-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.pricing{
+    font-weight: 500;
+}
+.iFune12-row{
+    background: rgb(238,174,202);
+    background: linear-gradient(199deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    padding: 80px 5px;
+}
+
+.iFuneSE-row{
+    background: rgb(71,215,228);
+    background: linear-gradient(341deg, rgba(71,215,228,1) 0%, rgba(153,255,255,1) 100%);
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    padding: 99px 5px;
+}
+.btn-dark{
+    transition: transform .2s
+}
+.btn-dark:hover{
+    transform: scale(1.1);
+}
+
+/* Sale Section */
+#sale{
+    text-align: center;
+    height: 700px;
+}
+
+.d-block{
+    display: inline-block!important;
+}
+.carousel-item{
+    box-sizing: border-box;
+    height: 550px;
+}
+.airpods-sale{
+    padding-top: 70px;
+    width: 233px!important;
+}
+.imac-sale{
+    width: 450px!important;
+}
+.macbook-sale{
+    padding-top: 70px;
+    width: 700px!important;
+}
+.ipads-sale{
+    padding-top: 100px;
+    width: 350px!important;
+}
+.carousel-caption{
+    margin-top: 150px;
+}
+.sale-name{
+    color: black;
+}
+.d-none{
+    display: block!important;
+}
+
+/* Message Section */
+#message{
+    text-align: center;
+}
+.mes-head{
+    font-family: 'Poppins', sans-serif;
+}
+.mes-container{
+    margin-top: 70px;
+    padding-bottom: 3rem;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.card-img-top {
+    width: 75%;
+    margin: auto;
+}
+.cards{
+    margin: auto;
+}
+
+/* Social Section */
+#social{
+    background-color: gray;
+    padding: 3rem 0rem;
+}
+.social-icon{
+    padding: 0px 15px;
+    color: rgb(70, 68, 68);
+}
+.social-icon:hover{
+    color: black;
+}
+
+/* Footer Section */
+#footer{
+    text-align: left;
+    background-color: gray;
+    padding: 2rem 5rem;
+    font-size: 11px;
+    line-height: 0.5;
+}
+.retailer{
+    text-decoration: none;
+}
+.copyright{
+    display: inline-block;
+    padding-right: 30px;
+}
+.footer-link{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+.footer-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+.india{
+    float: right;
+}
+/* Media Queries */
+
+@media (max-width: 1080px){
+    .moto-col{
+        text-align: center;
+    }
+    .apple-logo{
+        width: 120px;
+    }
+    .product-img{
+        width: 360px;
+    }
+    .moto1, .moto2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .img-product1{
+        width: 65%;
+        transition: transform .2s
+    }
+    .img-product2{
+        width: 50%;
+        transition: transform .2s
+    }
+    .detail-pro{
+        padding-top: 30px;
+    }
+    .copyright{
+        display: block;
+    }
+    #footer{
+        line-height: 2;
+    }
+}
+
+@media (max-width: 400px){
+    .moto-col{
+        text-align: center;
+    }
+    .apple-logo{
+        width: 100px;
+    }
+    .product-img{
+        width: 280px;
+        padding-top: 10%;
+    }
+    .moto1, .moto2{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
